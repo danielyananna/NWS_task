@@ -1,0 +1,21 @@
+.block {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.block__container-item {
+    text-decoration: none;
+    color: rgb(26, 24, 24);
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .block {
+        display: block
+    }
+
+    .block__container {
+        margin-bottom: 12px;
+    }
+}
